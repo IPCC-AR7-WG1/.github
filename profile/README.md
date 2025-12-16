@@ -11,7 +11,7 @@ The repositories hosted here cover a wide range of activities, including data pr
 - [Repository Structure and Workflow](repository-structure-and-workflow)
 - [Name your repository](#name-your-repository)
 - [Controlled vocabulary](#controlled-vocabulary)
-- ...
+- [Support](#support)
 
 
 ## Repository Structure and Workflow
