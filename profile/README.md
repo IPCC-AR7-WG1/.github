@@ -18,6 +18,8 @@ The repositories hosted here cover a wide range of activities, including data pr
 
 All repositories in this organization must follow the naming conventions in [Name your repository](#name-your-repository).
 
+Please remember that when creating a repository, it must be kept **private**.
+
 For **Zero Order Draft (ZOD) through Second Order Draft (SOD)**, authors and chapter teams have flexibility to organise their work as they see fit. This includes:
 
 - Repository structure
