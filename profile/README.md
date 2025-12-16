@@ -32,7 +32,7 @@ For the **Final Government Draft (FGD)**, WGI applies more structured requiremen
 
 - Each repository must follow the standardized structure provided in the repository template for final data and figures. <https://github.com/IPCC-AR7-WG1/ar7-wg1-fgd-ch99-fig_template>
 
-All Repositories names in this organisation must follow the naming conventions defined in [Name your repository](#name-your-repository).
+All repositories in this organization must follow the naming conventions in [Name your repository](#name-your-repository).
 
 ## Name your repository
 
@@ -72,3 +72,7 @@ Whenever a template includes fields for `<report>, <draft>, <chapter>` or `<figu
 |             | Frequently Asked Questions 4.1, Figure 1  | faq1fig1  |
 
 Note that with every pull request into the `main` branch, actions are run to check the conformity of the repo's structure and content. 
+
+## Support
+
+If you encounter any technical issues or need assistance with code management, please feel free to contact the WGI TSU Data Team at <data.wg1-ar7-ipcc@universite-paris-saclay.fr>
