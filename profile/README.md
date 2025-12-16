@@ -8,13 +8,13 @@ The repositories hosted here cover a wide range of activities, including data pr
 
 
 ## Contents
-- [Repository Structure and Workflow](repository-structure-and-workflow)
+- [Repository Organisation Guidelines](#repository-organisation-guidelines)
 - [Name your repository](#name-your-repository)
 - [Controlled vocabulary](#controlled-vocabulary)
 - [Support](#support)
 
 
-## Repository Structure and Workflow
+## Repository Organisation Guidelines
 
 All repositories in this organization must follow the naming conventions in [Name your repository](#name-your-repository).
 
