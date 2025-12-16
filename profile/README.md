@@ -16,6 +16,8 @@ The repositories hosted here cover a wide range of activities, including data pr
 
 ## Repository Structure and Workflow
 
+All repositories in this organization must follow the naming conventions in [Name your repository](#name-your-repository).
+
 For **Zero Order Draft (ZOD) through Second Order Draft (SOD)**, authors and chapter teams have flexibility to organise their work as they see fit. This includes:
 
 - Repository structure
@@ -30,9 +32,8 @@ For the **Final Government Draft (FGD)**, WGI applies more structured requiremen
 
 - One repository per figure
 
-- Each repository must follow the standardized structure provided in the repository template for final data and figures. <https://github.com/IPCC-AR7-WG1/ar7-wg1-fgd-ch99-fig_template>
+- All repositories for final data and figures must be created from the official repository template at: <https://github.com/IPCC-AR7-WG1/ar7-wg1-fgd-ch99-fig_template>
 
-All repositories in this organization must follow the naming conventions in [Name your repository](#name-your-repository).
 
 ## Name your repository
 
@@ -71,7 +72,6 @@ Whenever a template includes fields for `<report>, <draft>, <chapter>` or `<figu
 |             | Box 4.1, Figure 1                         | box1fig1  |
 |             | Frequently Asked Questions 4.1, Figure 1  | faq1fig1  |
 
-Note that with every pull request into the `main` branch, actions are run to check the conformity of the repo's structure and content. 
 
 ## Support
 
