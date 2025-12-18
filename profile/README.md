@@ -9,7 +9,7 @@ The repositories hosted here cover a wide range of activities, including data pr
 
 ## Contents
 - [Contents](#contents)
-- [Repository Organisation Guidelines](#repository-organisation-guidelines)
+- [Organisation Guidelines](#organisation-guidelines)
   - [Standard Figure Folder Structure](#standard-figure-folder-structure)
   - [General Rules](#general-rules)
 - [Folder Naming Conventions](#folder-naming-conventions)
@@ -18,9 +18,9 @@ The repositories hosted here cover a wide range of activities, including data pr
 - [Support](#support)
 
 
-## Repository Organisation Guidelines
+## Organisation Guidelines
 
-This repository is organized by figure, with one top-level folder per figure.
+In this GitHub organisation, all repositories are organized at the chapter level, with **one repository per chapter**. Within each repository, each figure is stored in its own top-level folder.
 
 Each figure folder is fully self-contained and includes the code, metadata, outputs, and citation information needed to reproduce that figure.
 
