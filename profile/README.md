@@ -8,71 +8,68 @@ The repositories hosted here cover a wide range of activities, including data pr
 
 
 ## Contents
+- [Contents](#contents)
 - [Repository Organisation Guidelines](#repository-organisation-guidelines)
-- [Name your repository](#name-your-repository)
-- [Controlled vocabulary](#controlled-vocabulary)
+  - [Standard Figure Folder Structure](#standard-figure-folder-structure)
+  - [General Rules](#general-rules)
+- [Folder Naming Conventions](#folder-naming-conventions)
+  - [Figure Folder Names](#figure-folder-names)
+  - [Naming Rules](#naming-rules)
 - [Support](#support)
 
 
 ## Repository Organisation Guidelines
 
-All repositories in this organization must follow the naming conventions in [Name your repository](#name-your-repository).
+This repository is organized by figure, with one top-level folder per figure.
 
-Please remember that when creating a repository, it must be kept **private**.
+Each figure folder is fully self-contained and includes the code, metadata, outputs, and citation information needed to reproduce that figure.
 
-For **Zero Order Draft (ZOD) through Second Order Draft (SOD)**, authors and chapter teams have flexibility to organise their work as they see fit. This includes:
+### Standard Figure Folder Structure
 
-- Repository structure
+Each figure directory must follow this structure:
 
-- File organisation
+```
+fig_xx/
+├── code/ # Scripts or notebooks used to generate the figure
+├── data/ # Metadata for input datasets (original data files excluded)
+├── figure/ # Generated figure(s)
+├── CITATION.cff # Citation information for this figure
+└── README.md # Figure description, usage, and citation instructions
+```
 
-- Choice of tools, languages, and workflows
+### General Rules
 
-This flexibility is intended to support diverse scientific approaches and evolving analyses during early draft stages.
+- **One figure per folder**  
+  Do not combine multiple figures in a single directory.
 
-For the **Final Government Draft (FGD)**, WGI applies more structured requirements to ensure consistency, traceability, and reproducibility:
+- **Do NOT store large data files**  
+  The `data/` folder must contain **metadata only** (e.g. `.yml`, schema files, small samples).  
+  Large datasets must be stored in external long-term storage and referenced via links.
 
-- One repository per figure
+- **Reproducibility first**  
+  All scripts or notebooks required to generate the figure must be placed in `code/`.
 
-- All repositories for final data and figures must be created from the official repository template at: <https://github.com/IPCC-AR7-WG1/ar7-wg1-fgd-ch99-fig_template>
-
-
-## Name your repository
-
-Please name your repository according to the following convention:  ``ar7-wg1-<draft>-<chapter>-<figure>``. All abbreviations must follow the definitions listed in [Controlled vocabulary](#controlled-vocabulary).
-
-Note that we expect authors to create a new repo for each draft. This may feel like a bad practice for 
-Git users, but keeping the same repository name across drafts would lead to name conflicts, because figure numbers 
-change from one draft to the next.
-
-**If you don't know yet the draft figure number, enter a descriptive name in the 
-``figure`` field, e.g. ``cmip7_sea_ice_extent``, and change the repo name once you know your figure's number.**
+- **Clear attribution**  
+  Every figure folder must include a `CITATION.cff` file to ensure proper authorship and citation tracking.
 
 
-## Controlled vocabulary
+## Folder Naming Conventions
 
-Whenever a template includes fields for `<report>, <draft>, <chapter>` or `<figure>`, please use abbreviations from the table below.
+### Figure Folder Names
 
-| Type        | Full name                                 | Abbreviation |
-|-------------|-------------------------------------------|-------------|
-| ``draft``   |                                           |             |
-|             | Zero Order Draft                          | zod         | 
-|             | First Order Draft                         | fod         |
-|             | Second Order Draft                        | sod         |
-|             | Final Government Draft                    | fgd         |
-| ``chapter`` |                                           |             |
-|             | Summary for Policymakers                  | spm         |
-|             | Technical Summary                         | ts          |
-|             | Chapter 1                                 | ch1         |
-|             | Cross-Chapter Paper 1                     | ccp1        |
-|             | Annex III                                 | ann3        |
-|             | Atlas                                     | atlas       |
-| ``figure``  |                                           |             |
-|             | Figure 4.1                                | fig1        |
-|             | Cross-Chapter Box 4.1, Figure 1           | ccb1fig1  |
-|             | Cross-Section Box TS.1, Figure 1          | csb1fig1  |
-|             | Box 4.1, Figure 1                         | box1fig1  |
-|             | Frequently Asked Questions 4.1, Figure 1  | faq1fig1  |
+- Use the format: `fig_XX`
+
+where `XX` is a **two-digit figure number** (e.g. `fig_01`, `fig_02`).
+
+- If the final figure number is not yet known, use a **descriptive temporary name**: fig_<short_descriptive_name> 
+
+Please rename the folder to the final `fig_XX` format once the figure number is confirmed.
+
+### Naming Rules
+
+- Use lowercase letters
+- Use underscores (`_`) instead of spaces or hyphens
+- Keep names short, clear, and descriptive
 
 
 ## Support
