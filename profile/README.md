@@ -1,76 +1,50 @@
 # IPCC Seventh Assessment Report - Working Group I
 
-Welcome to the GitHub organization for the IPCC AR7 WGI 🗺️
+🗺️ Welcome to the GitHub organisation for the **Intergovernmental Panel on Climate Change (IPCC) Seventh Assessment Report (AR7), Working Group I (WGI)**.
 
-This organisation provides a shared space to manage, develop, and archive code and figure-production workflows used in the assessment process. Its primary purpose is to support reproducibility, transparency, and long-term accessibility of the scientific outputs contributing to IPCC reports.
+## Purpose
 
-The repositories hosted here cover a wide range of activities, including data processing, analysis scripts, and figure generation. Authors are encouraged to use tools and workflows that best suit their scientific needs, while aligning with author guidance where required.
+This organisation serves as a collaborative platform for:
 
+* Scientific analysis and assessment workflows
+* Figure generation and visualization code
+* Data processing pipelines
+* Reproducibility and transparency initiatives
+* Documentation and supporting materials
+* Community-developed tools that contribute to AR7 assessment activities
 
-## Contents
-- [Contents](#contents)
-- [Organisation Guidelines](#organisation-guidelines)
-  - [Standard Figure Folder Structure](#standard-figure-folder-structure)
-  - [General Rules](#general-rules)
-- [Folder Naming Conventions](#folder-naming-conventions)
-  - [Figure Folder Names](#figure-folder-names)
-  - [Naming Rules](#naming-rules)
-- [Support](#support)
+Where possible, repositories aim to follow FAIR (Findable, Accessible, Interoperable, and Reusable) principles to improve transparency, reproducibility, and long-term accessibility of assessment-related resources. 
 
+## AR6 WGI GitHub Organisation
 
-## Organisation Guidelines
+The AR6 Working Group I GitHub organisation remains available at:
 
-In this GitHub organisation, all repositories are organized at the chapter level, with **one repository per chapter**. Within each repository, each figure is stored in its own top-level folder.
+https://github.com/IPCC-WG1
 
-Each figure folder is fully self-contained and includes the code, metadata, outputs, and citation information needed to reproduce that figure.
+The AR6 organisation contains numerous repositories supporting report chapters, figure production, data workflows, and the Interactive Atlas, providing valuable examples of transparent scientific assessment practices.
 
-### Standard Figure Folder Structure
+## Controlled vocabulary
 
-Each figure directory must follow this structure:
-
-```
-fig_xx/
-├── code/ # Scripts or notebooks used to generate the figure
-├── data/ # Metadata for input datasets (original data files excluded)
-├── figure/ # Generated figure(s)
-├── CITATION.cff # Citation information for this figure
-└── README.md # Figure description, usage, and citation instructions
-```
-
-### General Rules
-
-- **One figure per folder**  
-  Do not combine multiple figures in a single directory.
-
-- **Do NOT store large data files**  
-  The `data/` folder must contain **metadata only** (e.g. `.yml`, schema files, small samples).  
-  Large datasets must be stored in external long-term storage and referenced via links.
-
-- **Reproducibility first**  
-  All scripts or notebooks required to generate the figure must be placed in `code/`.
-
-- **Clear attribution**  
-  Every figure folder must include a `CITATION.cff` file to ensure proper authorship and citation tracking.
-
-
-## Folder Naming Conventions
-
-### Figure Folder Names
-
-- Use the format: `fig_XX`
-
-where `XX` is a **two-digit figure number** (e.g. `fig_01`, `fig_02`).
-
-- If the final figure number is not yet known, use a **descriptive temporary name**: fig_<short_descriptive_name> 
-
-Please rename the folder to the final `fig_XX` format once the figure number is confirmed.
-
-### Naming Rules
-
-- Use lowercase letters
-- Use underscores (`_`) instead of spaces or hyphens
-- Keep names short, clear, and descriptive
-
+| Type        | Full name                                 | Abbreviation |
+|-------------|-------------------------------------------|-------------|
+| ``draft``   |                                           |             |
+|             | Zero Order Draft                          | zod         | 
+|             | First Order Draft                         | fod         |
+|             | Second Order Draft                        | sod         |
+|             | Final Government Draft                    | fgd         |
+| ``chapter`` |                                           |             |
+|             | Summary for Policymakers                  | spm         |
+|             | Technical Summary                         | ts          |
+|             | Chapter 1                                 | ch1         |
+|             | Cross-Chapter Paper 1                     | ccp1        |
+|             | Annex III                                 | ann3        |
+|             | Atlas                                     | atlas       |
+| ``figure``  |                                           |             |
+|             | Figure 4.1                                | fig01       |
+|             | Cross-Chapter Box 4.1, Figure 1           | ccb01_fig01 |
+|             | Cross-Section Box TS.1, Figure 1          | csb01_fig01 |
+|             | Box 4.1, Figure 1                         | box01_fig01 |
+|             | Frequently Asked Questions 4.1, Figure 1  | faq01_fig01 |
 
 ## Support
 
