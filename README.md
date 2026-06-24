@@ -4,7 +4,7 @@ Welcome to the GitHub organisation for the **Intergovernmental Panel on Climate 
 
 ## Purpose
 
-This organization serves as a collaborative platform for:
+This organisation serves as a collaborative platform for:
 
 * Scientific analysis and assessment workflows
 * Figure generation and visualization code
@@ -15,9 +15,9 @@ This organization serves as a collaborative platform for:
 
 Where possible, repositories aim to follow FAIR (Findable, Accessible, Interoperable, and Reusable) principles to improve transparency, reproducibility, and long-term accessibility of assessment-related resources.
 
-## AR6 WGI GitHub Organization
+## AR6 WGI GitHub Organisation
 
-The AR6 Working Group I GitHub organization remains available at:
+The AR6 Working Group I GitHub organisation remains available at:
 
 https://github.com/IPCC-WG1
 
