@@ -1,22 +1,27 @@
+# IPCC AR7 Working Group I GitHub Organisation
 
+Welcome to the GitHub organisation for the **Intergovernmental Panel on Climate Change (IPCC) Seventh Assessment Report (AR7), Working Group I (WGI)**.
 
-## Contents
-- ...
-- [Name your repository](#name-your-repository)
-- [Controlled vocabulary](#controlled-vocabulary)
-- ...
-  
-## Name your repository
+## Purpose
 
-Please name your repository according to the following convention:  ``ar7-wg1-<draft>-<chapter>-<figure>``. All abbreviations must follow the definitions listed in [Controlled vocabulary](#controlled-vocabulary).
+This organization serves as a collaborative platform for:
 
-Note that we expect authors to create a new repo for each draft. This may feel like a bad practice for 
-Git users, but keeping the same repository name across drafts would lead to name conflicts, because figure numbers 
-change from one draft to the next.
+* Scientific analysis and assessment workflows
+* Figure generation and visualization code
+* Data processing pipelines
+* Reproducibility and transparency initiatives
+* Documentation and supporting materials
+* Community-developed tools that contribute to AR7 assessment activities
 
-**If you don't know yet the draft figure number, enter a descriptive name in the 
-``figure`` field, e.g. ``cmip7_sea_ice_extent``, and change the repo name once you know your figure's number.**
+Where possible, repositories aim to follow FAIR (Findable, Accessible, Interoperable, and Reusable) principles to improve transparency, reproducibility, and long-term accessibility of assessment-related resources.
 
+## AR6 WGI GitHub Organization
+
+The AR6 Working Group I GitHub organization remains available at:
+
+https://github.com/IPCC-WG1
+
+The AR6 organisation contains numerous repositories supporting report chapters, figure production, data workflows, and the Interactive Atlas, providing valuable examples of transparent scientific assessment practices.
 
 ## Controlled vocabulary
 
@@ -37,10 +42,8 @@ Whenever a template includes fields for `<report>, <draft>, <chapter>` or `<figu
 |             | Annex III                                 | ann3        |
 |             | Atlas                                     | atlas       |
 | ``figure``  |                                           |             |
-|             | Figure 4.1                                | fig1        |
-|             | Cross-Chapter Box 4.1, Figure 1           | ccb1fig1  |
-|             | Cross-Section Box TS.1, Figure 1          | csb1fig1  |
-|             | Box 4.1, Figure 1                         | box1fig1  |
-|             | Frequently Asked Questions 4.1, Figure 1  | faq1fig1  |
-
-Note that with every pull request into the `main` branch, actions are run to check the conformity of the repo's structure and content. 
+|             | Figure 4.1                                | fig01       |
+|             | Cross-Chapter Box 4.1, Figure 1           | ccb01_fig01 |
+|             | Cross-Section Box TS.1, Figure 1          | csb01_fig01 |
+|             | Box 4.1, Figure 1                         | box01_fig01 |
+|             | Frequently Asked Questions 4.1, Figure 1  | faq01_fig01 |
