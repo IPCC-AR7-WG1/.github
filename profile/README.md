@@ -49,3 +49,6 @@ The AR6 organisation contains numerous repositories supporting report chapters, 
 ## Support
 
 If you encounter any technical issues or need assistance with code management, please feel free to contact the WGI TSU Data Team at <data.wg1-ar7-ipcc@universite-paris-saclay.fr>
+
+**Note:** All chapter repositories will remain **private** until the report is published. They will be made publicly accessible after publication.
+
